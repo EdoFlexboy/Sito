@@ -66,3 +66,22 @@ function change() {
   x++;
   setTimeout(change, 4000);
 }
+
+//Modal Images
+
+let y;
+
+function modalImg(y) {
+  var modal = document.getElementById("modal");
+  var modalImg = document.getElementById("img");
+  modal.style.display = "flex";
+  modalImg.src = "gallery/" + y + ".jpg";
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
