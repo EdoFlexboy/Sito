@@ -364,6 +364,7 @@ body {
   display: block;
   width: 45%;
   height: auto;
+  margin-top: 12%;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -379,7 +380,7 @@ body {
 
 .close {
   position: absolute;
-  top: 175px;
+  top: 162px;
   right: 35px;
   color: white;
   font-size: 40px;
@@ -419,7 +420,7 @@ body {
 }
 
 #topbutton:hover {
-  background-color: black;
+  background-color: rgb(212, 187, 102);
 }
 
 .slideImgConteiner {

@@ -78,9 +78,6 @@ function modalImg(y) {
   modalImg.src = "gallery/" + y + ".jpg";
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
 function closeModal() {
   var modal = document.getElementById("modal");
   modal.style.display = "none";
