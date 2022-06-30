@@ -605,7 +605,7 @@ body {
   }
 
   .center {
-    font-family: Helvetica;
+    font-family: Arial;
   }
 
   .p1 p {
@@ -634,7 +634,7 @@ body {
   }
 
   .pageContent {
-    font-family: Helvetica;
+    font-family: Arial;
   }
 
   .title {
@@ -681,7 +681,7 @@ body {
   .coltxt a {
     font-size: 13px;
     width: 100%;
-    font-family: Helvetica;
+    font-family: Arial;
   }
 
   .slideImg {
