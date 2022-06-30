@@ -42,30 +42,24 @@ function backtotopFn() {
 
 //slideshow
 
-let x = 2;
+/*let x = 2;
 
 setTimeout(change, 4000);
 
 function change() {
   if (x <= 3) {
-    document.getElementById("img1").src =
-      "slide1/first_img/slide (" + x + ").jpg";
-    document.getElementById("img2").src =
-      "slide1/second_img/slide (" + x + ").jpg";
-    document.getElementById("img3").src =
-      "slide1/third_img/slide (" + x + ").jpg";
+    document.getElementById("img1").src = "CollectionSlider/1/" + x + ".jpg";
+    document.getElementById("img2").src = "CollectionSlider/2/" + x + ".jpg";
+    document.getElementById("img3").src = "CollectionSlider/3/" + x + ".jpg";
   } else {
     x = 1;
-    document.getElementById("img1").src =
-      "slide1/first_img/slide (" + x + ").jpg";
-    document.getElementById("img2").src =
-      "slide1/second_img/slide (" + x + ").jpg";
-    document.getElementById("img3").src =
-      "slide1/third_img/slide (" + x + ").jpg";
+    document.getElementById("img1").src = "CollectionSlider/1/" + x + ".jpg";
+    document.getElementById("img2").src = "CollectionSlider/2/" + x + ".jpg";
+    document.getElementById("img3").src = "CollectionSlider/3/" + x + ".jpg";
   }
   x++;
   setTimeout(change, 4000);
-}
+}*/
 
 //Modal Images
 
