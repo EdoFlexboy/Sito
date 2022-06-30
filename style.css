@@ -261,7 +261,7 @@ body {
 
 .white {
   position: relative;
-  top: 0;
+  top: 150px;
   width: 100%;
   height: 150px;
   background-color: white;
@@ -516,7 +516,16 @@ body {
   }
 
   .white {
+    top: 70px;
     height: 70px;
+  }
+
+  .space{
+    height: 70px;
+  }
+
+  .content{
+    top: 70px;
   }
 
   .title {
