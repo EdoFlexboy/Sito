@@ -713,4 +713,8 @@ body {
     height: 50px;
     width: 50px;
   }
+
+  .maps {
+    width: 80%;
+  }
 }
