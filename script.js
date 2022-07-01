@@ -19,9 +19,9 @@ window.onclick = function (event) {
 
 //scroll refresh
 
-window.onload = function (event) {
+/*window.onload = function (event) {
   document.getElementById("space").scrollIntoView();
-};
+};*/
 
 //topbutton
 
@@ -39,27 +39,6 @@ window.onscroll = function (event) {
 function backtotopFn() {
   document.documentElement.scrollTop = 0;
 }
-
-//slideshow
-
-/*let x = 2;
-
-setTimeout(change, 4000);
-
-function change() {
-  if (x <= 3) {
-    document.getElementById("img1").src = "CollectionSlider/1/" + x + ".jpg";
-    document.getElementById("img2").src = "CollectionSlider/2/" + x + ".jpg";
-    document.getElementById("img3").src = "CollectionSlider/3/" + x + ".jpg";
-  } else {
-    x = 1;
-    document.getElementById("img1").src = "CollectionSlider/1/" + x + ".jpg";
-    document.getElementById("img2").src = "CollectionSlider/2/" + x + ".jpg";
-    document.getElementById("img3").src = "CollectionSlider/3/" + x + ".jpg";
-  }
-  x++;
-  setTimeout(change, 4000);
-}*/
 
 //Modal Images
 
