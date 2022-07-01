@@ -320,6 +320,11 @@ body {
   padding: 50px 20px 50px 20px;
 }
 
+.txt a {
+  text-decoration: none;
+  color: black;
+}
+
 .coltxt {
   position: relative;
   line-height: 30px;
@@ -556,6 +561,14 @@ body {
   100% {
     background-image: url("CollectionSlider/3/3.jpg");
   }
+}
+
+.maps {
+  width: 50%;
+  height: auto;
+  margin-bottom: 50px;
+  height: 300px;
+  border: none;
 }
 
 @media screen and (min-width: 1025px) {
